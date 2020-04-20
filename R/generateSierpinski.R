@@ -17,7 +17,7 @@ generateSierpinski <- function(rows) {
 # n: number of vertices (e.g. n=3: Triangle)
 # Return a vector of length 2 with x and y coordinates
 sampleVertex <- function(n) {
-  c(x=0, y=0)
+  c(x=1, y=1)
 }
 
 # Create a point that is a step from `from` to `to`
