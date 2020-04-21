@@ -18,11 +18,11 @@ depth = 15
 sierpinski.df <- generateSierpinski(rows = 2^depth)
 ```
 
-```{r, animation.hook="gifski", fig.asp=1}
+```{r, animation.hook="gifski", interval = 0.2, fig.asp=sqrt(0.75)}
 par(mar=c(0.2, 0.2, 1.5, 0.2))
-for (draw.depth in seq_len(depth)) {
-  plot(sierpinski.df[seq_len(2^draw.depth), ],
-       ylim=c(0, sqrt(.5)), xlim=c(0, 1), pch=".",
+for (draw.depth in seq(1, 2^depth, length = 20)) {
+  plot(sierpinski.df[seq_len(draw.depth), ],
+       ylim=c(0, sqrt(.75)), xlim=c(0, 1), pch=".",
        xlab="", ylab="", xaxt="n", yaxt="n",
        main="Sierpinski Triangle")
 }
