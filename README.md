@@ -5,7 +5,7 @@ This is your first homework task. Since it will not be graded there is no deadli
 
 ## Information Material
 
-* [Slides]()
+* [Slides](ProgR_01_Intro.pdf)
 * Recommended resources
   * **[Software Carpentry Git Course](https://swcarpentry.github.io/git-novice/)**: A very good and thorough first `git` course that teaches how to use `git` from the command line. It is strongly recommended that you know the command line `git`, since you will understand what is going on under the hood even when using other tools. Expected reading time: 3 hours.
   * **[Happy Git with R](https://happygitwithr.com/index.html)**: A course of `git`, *GitHub*, and *RStudio*. This will teach you how to use all your tools together efficiently. 
@@ -39,3 +39,4 @@ You will very likely not be able to do this unless you read a good part of at le
 7. You whould now be able to load `sierpinski.Rmd` in your RStudio session and render it, getting a nice animation. Your result should look like this:
 
   ![Sierpinski Triangle](sier.png)
+
